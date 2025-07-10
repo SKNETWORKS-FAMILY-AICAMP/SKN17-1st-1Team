@@ -3,8 +3,9 @@ import pandas as pd
 
 
 
-file_path = 'C:/skn_17/SKN17-1st-1Team/primus_api/station_entity_with_location_code.csv'
+file_path = 'C:/Users/Playdata/Desktop/SKN17-1st-1Team/primus_api/station_entity_with_location_code.csv' # 경로 본인 상태에 맞게 수정 요망!
 charger_df = pd.read_csv(file_path, encoding='utf-8')
+print(charger_df)
 
 connection = mysql.connector.connect(
     host="localhost",           # MYSQL 서버 주소

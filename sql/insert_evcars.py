@@ -3,8 +3,18 @@ import pandas as pd
 
 
 
-file_path = 'C:/skn_17/SKN17-1st-1Team/primus_api/car_entity_with_location_code.csv'
+file_path = 'C:/Users/Playdata/Desktop/SKN17-1st-1Team/primus_api/car_entity_with_location_code.csv' # 경로 본인 상태에 맞게 수정 요망!
 cars_df = pd.read_csv(file_path, encoding='utf-8')
+
+""" 이런 케이스 groupby 처리
+249  2294     충청북도  청주시  237.0
+250  2121     충청북도  청주시  237.0
+251  2255     충청북도  청주시  237.0
+252  3972     충청북도  청주시  237.0
+253  2694     충청북도  충주시  238.0
+"""
+cars_df = cars_df.groupby(['지역코드'], as_index=False)['승용'].sum()
+print(cars_df)
 
 connection = mysql.connector.connect(
     host="localhost",           # MYSQL 서버 주소
@@ -12,6 +22,7 @@ connection = mysql.connector.connect(
     password="ohgiraffers",     # 비밀번호
     database="primusdb"           # 사용할 데이터비이스(스키마)
 )
+
 
 cursor = connection.cursor()
 
