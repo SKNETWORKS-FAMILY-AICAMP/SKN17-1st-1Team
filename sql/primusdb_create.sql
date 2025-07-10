@@ -20,7 +20,6 @@ CREATE TABLE IF NOT EXISTS EV_Charger
 (
     charger_code    	INT AUTO_INCREMENT COMMENT '충전소코드',
     region_code    		INT NOT NULL COMMENT '지역코드',
-    charger_count    	INT NOT NULL COMMENT '충전소 개수',
     install_year    	INT NOT NULL COMMENT '설치년도',
     CONSTRAINT pk_charger_code PRIMARY KEY (charger_code),
     CONSTRAINT fk_ev_charger_region_code FOREIGN KEY (region_code) REFERENCES Region_Info (region_code)
