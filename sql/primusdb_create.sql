@@ -48,6 +48,7 @@ CREATE TABLE IF NOT EXISTS EV_Subsidy
 CREATE TABLE IF NOT EXISTS FAQ
 (
     faq_code   		INT AUTO_INCREMENT COMMENT '질문코드',
+    faq_type        VARCHAR(20) NOT NULL COMMENT 'FAQ타입'
     faq_title    	VARCHAR(100) NOT NULL COMMENT '질문제목',
     faq_answer    	TEXT NOT NULL COMMENT '질문답변',
     CONSTRAINT pk_faq_code PRIMARY KEY (faq_code)
