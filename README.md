@@ -1,11 +1,12 @@
 ## 1. 팀소개 
 ### 팀명 : 프리무스 👍🏻
+1등이 목표가 아니야. 우린 태어날 때부터 프리무스(최고)니까!
 
-## 팀원 소개
+### 팀원 소개
 | 이민영 | 한훈 | 김민균 | 박민정 | 김세한 |
 |---|---|---|---|---|
 | <img width="225" height="225" src="https://github.com/user-attachments/assets/1cae6b09-5b1d-4ed3-bc1b-d78f10ae78cd" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/07184403-0e92-4eaf-821e-d4afcfe35055" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/836e01d5-fd1d-4fd3-a93d-1381ff9b60e8" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/11a4328c-164a-4ae5-90f6-e8607eec0dd2" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/3e6eaaad-52c7-4528-b3ac-48fc42d4373d" /> |
-|@mylee99125|@Hoonieboogie|@alswhiteiger|@minjeon|@kimsehan11|
+|[@mylee99125](https://github.com/mylee99125)|[@Hoonieboogie](https://github.com/Hoonieboogie)|[@alswhitetiger](https://github.com/alswhitetiger)|[@minjeon](https://github.com/minjeon)|[@kimsehan11](https://github.com/kimsehan11)|
 
 ---
 
@@ -16,32 +17,28 @@
 
 1. **<Title>** = **“전기차 구매 서포터”**
 2. **목적 :** 
-    1. 자신이 거주하는 지역의 전기차 등록 현황
-    2. 자신이 거주하는 지역의 전기 충전소의 위치 및 개수
-    3. 지역과 차량 모델에 따른 보조금 정보
+ - 자신이 거주하는 지역의 전기차 등록 현황
+ - 자신이 거주하는 지역의 전기 충전소의 위치 및 개수
+ - 지역과 차량 모델에 따른 보조금 정보<br />
+등을 한 눈에 확인할 수 있도록 돕는 서비스 제공
 
-    등을 한 눈에 확인할 수 있도록 돕는 서비스 제공
-
-1. **대상 사용자 :** 
-    1. 전기차 구매를 고려하는 일반 소비자
-    2. 전기차와 인프라 현황에 관심 있는 시민
-    3. 충전소 설치 또는 관련 사업 검토 중인 관계자
+3. **대상 사용자 :** 
+ - 전기차 구매를 고려하는 일반 소비자
+ - 전기차와 인프라 현황에 관심 있는 시민
+ - 충전소 설치 또는 관련 사업 검토 중인 관계자
 
 ### <🎯 프로젝트 목표>
 
 1. **전기차 및 충전소 시각화 기능**
-    - 원하는 지역(시/도/군/구)을 선택하면
-        
-        → 해당 지역의 전기차 등록 대수, 충전기 개수, 충전량 데이터를 지도 기반의 시각화로 제공
+  - 원하는 지역(시/도/군/구)을 선택하면<br />
+         → 해당 지역의 전기차 등록 대수, 충전기 개수, 충전량 데이터를 지도 기반의 시각화로 제공
         
 2. **보조금 정보 제공 기능**
-    - 원하는 지역 + 제조사 + 모델명을 선택하면
-        
+  - 원하는 지역 + 제조사 + 모델명을 선택하면<br />
         → 해당 조합에 따른 보조금 지원 금액을 시각적으로 제공
         
 3. **기업 FAQ 정리**
-    - 전기차 및 충전소와 관련된 자주 묻는 질문
-        
+ - 전기차 및 충전소와 관련된 자주 묻는 질문<br />
         → 항목별로 정리하여 누구나 이해하기 쉽게 제공
         
 
@@ -135,4 +132,5 @@
 
 ### 3. 기업 FAQ
 
-
+---
+# 8. 한 줄 회고록
