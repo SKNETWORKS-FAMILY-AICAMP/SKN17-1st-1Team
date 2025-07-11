@@ -62,7 +62,8 @@ https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2
     **💡필요성** : 이 데이터를 지도로 시각화함으로써 정책 입안자나 지자체가 충전 인프라 불균형을 인지하고 개선 방안을 마련하는 데 참고할 수 있음. 
     
 2. ⚠️ **근거** : 소비자 조사 결과, 전기차 구매 시 가장 고려하는 요소는 다음과 같음
-    
+   <img width="437" height="536" alt="image" src="https://github.com/user-attachments/assets/8fafe31a-0e5f-4e3c-8cd4-4166fdf5ae0f" />
+
     → 차량 가격 및 보조금, 충전 인프라 위치 및 접근성, 모델별정보 신뢰성
     
     ⭕ **기여점** : 이 세 가지 핵심 요소를 통합하여 사용자에게 제공 → 정보의 단절을 해결하고, 소비자의 만족도를 높임.  
