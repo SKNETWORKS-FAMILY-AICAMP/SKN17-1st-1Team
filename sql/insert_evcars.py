@@ -3,7 +3,7 @@ import pandas as pd
 
 
 
-file_path = 'C:/Users/Playdata/Desktop/SKN17-1st-1Team/primus_api/car_entity_with_location_code.csv' # 경로 본인 상태에 맞게 수정 요망!
+file_path = 'car_entity_with_location_code.csv' # 경로 본인 상태에 맞게 수정 요망!
 cars_df = pd.read_csv(file_path, encoding='utf-8')
 
 """ 이런 케이스 groupby 처리
@@ -18,8 +18,8 @@ print(cars_df)
 
 connection = mysql.connector.connect(
     host="localhost",           # MYSQL 서버 주소
-    user="ohgiraffers",         # 사용자 이름
-    password="ohgiraffers",     # 비밀번호
+    user="root",         # 사용자 이름
+    password="uyer1897@@",     # 비밀번호
     database="primusdb"           # 사용할 데이터비이스(스키마)
 )
 

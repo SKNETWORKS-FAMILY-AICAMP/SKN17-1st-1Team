@@ -2,8 +2,8 @@ import mysql.connector
 import csv
 connection = mysql.connector.connect(
     host="localhost",               
-    user="ohgiraffers",              
-    password="ohgiraffers",         
+    user="root",              
+    password="uyer1897@@",         
     database="primusdb"               
 )
 
