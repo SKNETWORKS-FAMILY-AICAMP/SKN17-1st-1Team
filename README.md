@@ -123,7 +123,8 @@
 - FAQ 타입
 - 질문답변
 
-<img width="1125" height="699" alt="1_LOG" src="https://github.com/user-attachments/assets/ab84bcae-719b-4c91-8c76-632205ec0786" />
+<img width="957" height="647" alt="image" src="https://github.com/user-attachments/assets/93a857db-8c9f-4d20-8eb8-8fffc9cd1818" />
+
 
 
 ---
