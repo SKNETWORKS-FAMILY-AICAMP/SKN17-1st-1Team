@@ -67,6 +67,11 @@
 ---
 ## 3. 기술스택 
 
+**언어** : python
+**라이브러리** : NUMPY, PANDAS, 
+**데이터베이스** : MYSQL
+**WEB** : STREAMLIT
+**협업 툴** : GITHUB, NOTION, GIT
 
 ---
 ## 4. WBS
