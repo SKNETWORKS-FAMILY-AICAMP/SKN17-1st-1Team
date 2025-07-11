@@ -1,12 +1,12 @@
+# 팀명 : 프리무스 👍🏻
+
+# 팀원 소개
 | 이민영 | 한훈 | 김민균 | 박민정 | 김세한 |
 |---|---|---|---|---|
 | <img width="225" height="225" src="https://github.com/user-attachments/assets/1cae6b09-5b1d-4ed3-bc1b-d78f10ae78cd" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/07184403-0e92-4eaf-821e-d4afcfe35055" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/836e01d5-fd1d-4fd3-a93d-1381ff9b60e8" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/11a4328c-164a-4ae5-90f6-e8607eec0dd2" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/3e6eaaad-52c7-4528-b3ac-48fc42d4373d" /> |
 |@mylee99125|@Hoonieboogie|@alswhiteiger|@minjeon|@kimsehan11|
 
-# [대주제]
-
-> 전국 자동차 등록 현황 및 기업 FAQ 조회 시스템
-> 
+---
 
 # 📢 전기차 구매 서포터
 
