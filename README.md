@@ -1,6 +1,7 @@
-# 팀명 : 프리무스 👍🏻
+## 1. 팀소개 
+### 팀명 : 프리무스 👍🏻
 
-# 팀원 소개
+## 팀원 소개
 | 이민영 | 한훈 | 김민균 | 박민정 | 김세한 |
 |---|---|---|---|---|
 | <img width="225" height="225" src="https://github.com/user-attachments/assets/1cae6b09-5b1d-4ed3-bc1b-d78f10ae78cd" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/07184403-0e92-4eaf-821e-d4afcfe35055" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/836e01d5-fd1d-4fd3-a93d-1381ff9b60e8" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/11a4328c-164a-4ae5-90f6-e8607eec0dd2" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/3e6eaaad-52c7-4528-b3ac-48fc42d4373d" /> |
@@ -8,28 +9,25 @@
 
 ---
 
-# 📢 전기차 구매 서포터
+## 2. 프로젝트 개요🔨 
 
-지역별 전기차 등록 현황, 지역별 전기 충전소 개수, 지역별 전기차 관련 보조금, 기업FAQ
 
-https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2Sls/edit?gid=0#gid=0
+### <📌 프로젝트 소개>
 
-## <📌 프로젝트 소개>
-
-1. **<Title>** = “전기차 구매 서포터” “내 지역 전기차 한눈에 보기” “EV 인사이트맵” 등등
+1. **<Title>** = **“전기차 구매 서포터”**
 2. **목적 :** 
     1. 자신이 거주하는 지역의 전기차 등록 현황
     2. 자신이 거주하는 지역의 전기 충전소의 위치 및 개수
     3. 지역과 차량 모델에 따른 보조금 정보
 
-등을 한 눈에 확인할 수 있도록 돕는 서비스 제공
+    등을 한 눈에 확인할 수 있도록 돕는 서비스 제공
 
 1. **대상 사용자 :** 
     1. 전기차 구매를 고려하는 일반 소비자
     2. 전기차와 인프라 현황에 관심 있는 시민
     3. 충전소 설치 또는 관련 사업 검토 중인 관계자
 
-## <🎯 프로젝트 목표>
+### <🎯 프로젝트 목표>
 
 1. **전기차 및 충전소 시각화 기능**
     - 원하는 지역(시/도/군/구)을 선택하면
@@ -47,7 +45,7 @@ https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2
         → 항목별로 정리하여 누구나 이해하기 쉽게 제공
         
 
-## <🚀 프로젝트 배경>
+### <🚀 프로젝트 배경>
 
 1. **✅ 배경** : 전기차는 매년 판매량이 증가하고 있으며 정부도 탄소중립 정책의 일환으로 보급을 적극 지원. 
     
@@ -69,10 +67,24 @@ https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2
     ⭕ **기여점** : 이 세 가지 핵심 요소를 통합하여 사용자에게 제공 → 정보의 단절을 해결하고, 소비자의 만족도를 높임.
    <img width="437" height="536" alt="image" src="https://github.com/user-attachments/assets/8fafe31a-0e5f-4e3c-8cd4-4166fdf5ae0f" />
     
+---
+## 3. 기술스택 
+
+
+---
+## 4. WBS
+
+<img width="1245" height="638" alt="image" src="https://github.com/user-attachments/assets/8bd978a5-f96f-42a4-a618-21c8b82590a3" />
+
+
+---
+## 5. 요구사항 명세서
+
+<img width="1352" height="673" alt="image" src="https://github.com/user-attachments/assets/7b469d1a-6613-4229-a2c6-a330afb0e689" />
 
 ---
 
-# ERD
+# 6. ERD
 
 ### 1. 전기차 충전소
 
@@ -111,26 +123,16 @@ https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2
 
 ---
 
-# Streamlit 구성
+# 7. 프로젝트 시연 페이지
 
 ### 1. Main 페이지
 
-- <Title> = ?
-- Drop box(or 토글)로 ON/OFF → 충전소 표시
-- **지도**에 지역(시/군/구) + 전기차 차량 등록 대수 + 색 차이 표현(많은 곳은 색 진하게) + 충전소 개수
+
 
 ### 2. 보조금 페이지
 
-- 지역 선택
-- Drop box로 제조사 선택
-- Drop box로(체크 박스?) 모델명 선택
-- 제일 오른쪽에 차량 사진 + 차량 가격 + 지역과 차량에 따른 보조금
+
 
 ### 3. 기업 FAQ
 
-- 오른쪽 위에 기아,  제주전기자동차서비스 선택
-- 정중앙에 그 기업에 따른 FAQ
 
-### +) 충전소 증가 추이
-
-- 시간 보고 되면 전기차 차량 등록 대수 증가 추이나 충전소 증가 추이까지
