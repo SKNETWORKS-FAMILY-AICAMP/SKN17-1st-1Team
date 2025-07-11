@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import mysql.connector
-
+st.set_page_config(page_title="EV 보조금 계산기", layout="wide")
 @st.cache_data
 def load_ev_subsidy_data():
     conn = mysql.connector.connect(
@@ -29,7 +29,7 @@ def load_ev_subsidy_data():
 subsidy_df = load_ev_subsidy_data()
 
 # 페이지 설정
-st.set_page_config(page_title="EV 보조금 계산기", layout="wide")
+
 st.title("🚗 전기차 지자체 보조금 계산기 (승용)")
 st.info("이 페이지는 2025년 상반기 공개 정보를 기준으로 제작되었으며, 실제 보조금 및 차량 가격은 변동될 수 있습니다.")
 st.markdown("---")

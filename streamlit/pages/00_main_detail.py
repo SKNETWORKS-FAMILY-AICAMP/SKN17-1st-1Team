@@ -22,14 +22,16 @@ def get_db_connection():
     try:
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="uyer1897@@",
+            user="ohgiraffers",
+            password="ohgiraffers",
             database="primusdb"
         )
         return connection
     except Exception as e:
         st.error(f"데이터베이스 연결 실패: {e}")
         return None
+
+
 
 # --- 데이터 로딩 및 처리 함수 (캐시 사용) ---
 @st.cache_data

@@ -183,33 +183,40 @@ m = folium.Map(
 
 # --- 선택된 모드에 따라 지도 내용 변경 ---
 if view_mode == "지역별 충전소 개수":
+    thresholds = [6000, 12000, 18000, 30000, 50000, 75000, 100000]
     folium.Choropleth(
     geo_data=geojson_data,
-    name='choropleth',
     data=charger_counts_for_map,
-    columns=['sido', 'charger_count'],
-    key_on='feature.properties.name',
-    fill_color='YlOrRd',
-    fill_opacity=0.8,
-    line_opacity=0.3,
-    legend_name='충전소 개수',
-    threshold_scale=[6000, 10000, 15000, 20000, 30000, 50000, 70000, 100000]
+    columns=["sido", "charger_count"],
+    key_on="feature.properties.name",
+    fill_color="YlOrRd",  # 색상도 더 눈에 띄는 색으로 바꿨음
+    fill_opacity=0.7,
+    line_opacity=0.2,
+    threshold_scale=thresholds,
+    bins=thresholds,
+    legend_name="충전소 개수",
+    reset=True
     ).add_to(m)
+
+    
 
     st.success(f"**지역별 충전소 개수**를 색상 지도로 표시합니다. (전국 총 {charger_counts_for_map['charger_count'].sum():,}개)")
 
 elif view_mode == "지역별 전기차 등록 현황":
+    
+    thresholds = [7000, 20000, 40000, 60000, 80000, 100000, 130000]
     folium.Choropleth(
     geo_data=geojson_data,
-    name='choropleth',
     data=ev_reg_for_map,
-    columns=['sido', 'ev_count'],
-    key_on='feature.properties.name',
-    fill_color='YlGnBu',  # 또는 YlGnBu, BuPu 등
-    fill_opacity=0.8,
-    line_opacity=0.3,
-    legend_name='전기차 등록 대수',
-    threshold_scale=[7000, 15000, 25000, 35000, 50000, 70000, 100000, 130000]
+    columns=["sido", "ev_count"],
+    key_on="feature.properties.name",
+    fill_color="YlGnBu",
+    fill_opacity=0.7,
+    line_opacity=0.2,
+    legend_name="전기차 등록 대수",
+    threshold_scale=thresholds,
+    bins=thresholds,
+    reset=True
     ).add_to(m)
     st.success(f"**지역별 전기차 등록 현황**을 색상 지도로 표시합니다. (전국 총 {ev_reg_for_map['ev_count'].sum():,}대)")
 

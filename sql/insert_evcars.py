@@ -18,8 +18,8 @@ print(cars_df)
 
 connection = mysql.connector.connect(
     host="localhost",           # MYSQL 서버 주소
-    user="root",         # 사용자 이름
-    password="uyer1897@@",     # 비밀번호
+    user="ohgiraffers",         # 사용자 이름
+    password="ohgiraffers",     # 비밀번호
     database="primusdb"           # 사용할 데이터비이스(스키마)
 )
 
