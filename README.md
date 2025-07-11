@@ -95,7 +95,7 @@ https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2
 - 질문제목
 - 질문답변
 
-![image.png](attachment:f9a804d6-c63d-4b60-a6b7-34858b2a86c3:image.png)
+<img width="887" height="607" alt="Image" src="https://github.com/user-attachments/assets/0c6da900-fe54-4bf2-91a2-d4ff5984a34d" />
 
 ---
 
