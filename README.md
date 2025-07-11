@@ -5,7 +5,7 @@
 | 이민영 | 한훈 | 김민균 | 박민정 | 김세한 |
 |---|---|---|---|---|
 | <img width="225" height="225" src="https://github.com/user-attachments/assets/1cae6b09-5b1d-4ed3-bc1b-d78f10ae78cd" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/07184403-0e92-4eaf-821e-d4afcfe35055" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/836e01d5-fd1d-4fd3-a93d-1381ff9b60e8" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/11a4328c-164a-4ae5-90f6-e8607eec0dd2" /> | <img width="225" height="225" src="https://github.com/user-attachments/assets/3e6eaaad-52c7-4528-b3ac-48fc42d4373d" /> |
-|[@mylee99125](https://github.com/mylee99125)|[@Hoonieboogie](https://github.com/Hoonieboogie)|[@alswhiteiger](https://github.com/alswhiteiger)|[@minjeon](https://github.com/minjeon)|[@kimsehan11](https://github.com/kimsehan11)|
+|[@mylee99125](https://github.com/mylee99125)|[@Hoonieboogie](https://github.com/Hoonieboogie)|[@alswhitetiger](https://github.com/alswhitetiger)|[@minjeon](https://github.com/minjeon)|[@kimsehan11](https://github.com/kimsehan11)|
 
 ---
 
