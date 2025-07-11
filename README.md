@@ -76,24 +76,34 @@ https://docs.google.com/spreadsheets/d/13JzQBF77jx5KjPS_W0zqTrn5OAVhY6UfowT20as2
 ### 1. 전기차 충전소
 
 - 지역별 (도/시/군/구) 충전기 개수
-- 급속/완속/초급속
+- 충전소 코드(PK)
 - 설치년도
+- 지역코드(FK)
 
 ### 2. 전기차 보조금 정보
 
-- 지역별 - 제조사별 - 모델별 - 지원금 얼마인지
+- 보조금 코드(PK)
+- 지역코드(FK)
+- 제조사
+- 모델명
+- 보조금
 
 ### 3. 지역정보
 
-- 시/도/군/구
+- 지역코드(PK)
+- 시/도
+- 군/구
 
 ### 4. 전기차 등록 현황
 
 - 지역별 (시/도/군/구) 전기차 차량 등록 대수
+- 지역코드(PK/FK)
 
 ### 5. FAQ
 
+- 질문 코드(PK)
 - 질문제목
+- FAQ 타입
 - 질문답변
 
 <img width="887" height="607" alt="Image" src="https://github.com/user-attachments/assets/0c6da900-fe54-4bf2-91a2-d4ff5984a34d" />
